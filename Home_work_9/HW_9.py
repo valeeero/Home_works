@@ -1,7 +1,6 @@
 set_true = {1, 2, 'str', 6, 8}
 set_false = {None, 0, 0}
 set_numbers = {1, 3, 5, 3, 6, 7, 2, 4}
-print(set_numbers)
 
 # all()	Returns True if all elements of the set are true (or if the set is empty).
 
