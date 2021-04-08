@@ -1,5 +1,6 @@
 # 1
 
+
 from collections import OrderedDict
 
 user_info = OrderedDict({'Имя': 'Валерий', 'Фамилия': 'Лысенко', 'Рост': 184, 'Вес': 81, 'Пол': 'Мужской'})
