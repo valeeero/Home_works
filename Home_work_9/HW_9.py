@@ -35,7 +35,7 @@ print("largest item -", max(set_numbers))
 print("-"*70)
 print("smallest item -", min(set_numbers))
 
-# sorted()	Returns a new sorted list from elements in the set(does not sort the set itself).
+# sorted()	Returns a new sorted list from elements in the set(does not sort the set itself)
 
 print("-"*70)
 print("set -", set_numbers, "|", "id -", id(set_numbers))
