@@ -106,4 +106,5 @@ print(dict_vlaue)
 
 text = str(input("Введите текст: "))
 my_dict = {i: text.count(i) for i in text}
+
 print(my_dict)
