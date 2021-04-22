@@ -1,110 +1,110 @@
-# # Задача 2
-#
-# set1 = {1, 2, 3, 4}
-# set2 = {2, 3, 5, 6}
-# set3 = {3, 4, 6, 7}
-#
-# print(set1.intersection(set2, set3))
-#
-# # Задача 3
-#
-# print("="*70)
-#
-# set1 = {1, 2, 3, 4}
-# set2 = {2, 3, 5, 6}
-# set3 = {3, 4, 6, 7}
-#
-# print(set1.difference(set2, set3))
-#
-# # Задача 4
-#
-# print("="*70)
-#
-# set1 = {1, 2, 3, 4}
-# set2 = {2, 3, 5, 6}
-# set3 = {3, 4, 6, 7}
-#
-# print(set1.union(set2,set3))
-#
-# # Задача 5
-#
-# print("="*70)
-#
-# sampleSet = {"Yellow", "Orange", "Black"}
-# sampleList = ["Blue", "Green", "Red"]
-#
-# print(sampleSet.union(sampleList))
-#
-# # Задача 6
-#
-# print("="*70)
-#
-# set1 = {10, 20, 30, 40, 50}
-# set2 = {30, 40, 50, 60, 70}
-# set3 = set1.intersection(set2)
-#
-# print(set3)
-#
-# # Задача 7
-#
-# print("="*70)
-#
-# set1 = {10, 20, 30, 40, 50}
-# set2 = {30, 40, 50, 60, 70}
-# set3 = set1.union(set2)
-#
-# print(set3)
-#
-# # Задача 8
-#
-# print("="*70)
-#
-# set1 = {10, 20, 30}
-# set2 = {20, 40, 50}
-#
-# elements = set1.intersection(set2)
-#
-# for i in elements:
-#     set1.discard(i)
-#
-# print(set1)
-#
-# # Задача 9
-#
-# print("="*70)
-#
-# set1 = {10, 20, 30, 40, 50}
-# delete_set = {10, 20, 30}
-# set1 -= delete_set
-# print(set1)
-#
-# # Задача 11
-#
-# print("="*70)
-#
-# set1 = {10, 20, 30, 40, 50}
-# set2 = {60, 70, 80, 90, 10}
-# print(set1 & set2)
-#
-# # Задача 12
-#
-# print("="*70)
-#
-# set1 = {10, 20, 30, 40, 50}
-# set2 = {60, 70, 80, 90, 10}
-#
-# print(set1.union(set2))
-#
-# # Задача 13
-#
-# print("="*70)
-#
-# set1 = {10, 20, 30, 40, 50}
-# set2 = {30, 40, 50, 60, 70}
-#
-# set1 = set1.intersection(set2)
-#
-# print(set1)
+# Задача 2
+
+set1 = {1, 2, 3, 4}
+set2 = {2, 3, 5, 6}
+set3 = {3, 4, 6, 7}
+
+print(set1.intersection(set2, set3))
+
+# Задача 3
+
+print("="*70)
+
+set1 = {1, 2, 3, 4}
+set2 = {2, 3, 5, 6}
+set3 = {3, 4, 6, 7}
+
+print(set1.difference(set2, set3))
+
+# Задача 4
+
+print("="*70)
+
+set1 = {1, 2, 3, 4}
+set2 = {2, 3, 5, 6}
+set3 = {3, 4, 6, 7}
+
+print(set1.union(set2,set3))
+
+# Задача 5
+
+print("="*70)
+
+sampleSet = {"Yellow", "Orange", "Black"}
+sampleList = ["Blue", "Green", "Red"]
+
+print(sampleSet.union(sampleList))
+
+# Задача 6
+
+print("="*70)
+
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70}
+set3 = set1.intersection(set2)
+
+print(set3)
+
+# Задача 7
+
+print("="*70)
+
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70}
+set3 = set1.union(set2)
+
+print(set3)
+
+# Задача 8
+
+print("="*70)
+
+set1 = {10, 20, 30}
+set2 = {20, 40, 50}
+
+elements = set1.intersection(set2)
+
+for i in elements:
+    set1.discard(i)
+
+print(set1)
+
+# Задача 9
+
+print("="*70)
+
+set1 = {10, 20, 30, 40, 50}
+delete_set = {10, 20, 30}
+set1 -= delete_set
+print(set1)
+
+# Задача 11
+
+print("="*70)
+
+set1 = {10, 20, 30, 40, 50}
+set2 = {60, 70, 80, 90, 10}
+print(set1 & set2)
+
+# Задача 12
+
+print("="*70)
+
+set1 = {10, 20, 30, 40, 50}
+set2 = {60, 70, 80, 90, 10}
+
+print(set1.union(set2))
+
+# Задача 13
+
+print("="*70)
+
+set1 = {10, 20, 30, 40, 50}
+set2 = {30, 40, 50, 60, 70}
+
+set1 = set1.intersection(set2)
+
+print(set1)
 
 # Задача 14
 
