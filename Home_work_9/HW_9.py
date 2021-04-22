@@ -14,7 +14,7 @@ print("-" * 70)
 print(any(set_true))
 print(any(set_false))
 
-# enumerate()	Returns an enumerate object. It contains the index and value for all the items of the set as a pair.
+# enumerate() Returns an enumerate object. It contains the index and value for all the items of the set as a pair.
 
 print("-" * 70)
 print(list(enumerate(set_true)))
