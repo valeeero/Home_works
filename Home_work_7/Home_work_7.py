@@ -2,7 +2,7 @@
 
 from collections import OrderedDict
 
-user_info = OrderedDict({'Имя': 'Валерий', 'Фамилия': 'Лысенко', 'Рост': 183, 'Вес': 81, 'Пол': 'Мужской'})
+user_info = OrderedDict({'Имя': 'Валерий', 'Фамилия': 'Лысенко', 'Рост': 184, 'Вес': 81, 'Пол': 'Мужской'})
 
 print(user_info, id(user_info))
 
