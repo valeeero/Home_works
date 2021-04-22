@@ -2,7 +2,7 @@ set_true = {1, 2, 'str', 6, 8}
 set_false = {None, 0, 0}
 set_numbers = {1, 3, 5, 3, 6, 7, 2, 4}
 
-# all()	Returns True if all elements of the set are true (or if the set is empty) .
+# all()	Returns True if all elements of the set are true (or if the set is empty).
 
 print("-" * 70)
 print(all(set_true))
